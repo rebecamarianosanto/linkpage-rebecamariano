@@ -1,7 +1,7 @@
 # 🌐 LinkPage - Rebeca Mariano
 
 Uma página única e responsiva para reunir todos os meus links profissionais e de portfólio.  
-Inspirada no conceito do **Linktree**, mas desenvolvida do zero com **HTML + CSS**, para ter identidade visual própria.
+Inspirada no conceito do Linktree, mas desenvolvida do zero com HTML + CSS, para refletir meu próprio estilo e identidade visual.
 
 ## 🚀 Tecnologias utilizadas
 - **HTML5** para estrutura
@@ -16,6 +16,6 @@ Inspirada no conceito do **Linktree**, mas desenvolvida do zero com **HTML + CSS
 - WhatsApp
 - E-mail
 
-## 📸 Captura de Tela
+## 📸 Captura do projeto
 
 <img width="1478" height="1025" alt="linkPage - Rebeca" src="https://github.com/user-attachments/assets/f86d50d2-8d75-4b24-87e0-895e96670d48" />
