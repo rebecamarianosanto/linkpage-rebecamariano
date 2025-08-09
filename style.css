@@ -9,6 +9,7 @@
     --gray: #666;
     --violet: #EE82EE;
 }
+
 /* TAMANHO FONTE */
 :root {
     --font-size: 1.6rem;
@@ -20,11 +21,13 @@
     margin: 0;
     padding: 0;
 }
+
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
-body{
+
+body {
     min-height: 100vh;
     font-family: 'Quicksand', sans-serif;
     font-size: var(--font-size);
@@ -32,7 +35,7 @@ body{
     line-height: 1.3;
     letter-spacing: 0.2px;
     background-color: var(--black);
-    
+
     &::-webkit-scrollbar {
         width: 2px;
         background: var(--br);
@@ -48,10 +51,12 @@ body{
         border: 1px solid var(--black);
     }
 }
-a{
+
+a {
     color: var(--br)
 }
-.portf-rebeca{
+
+.portf-rebeca {
     width: 100%;
     height: auto;
     display: flex;
@@ -59,10 +64,10 @@ a{
     justify-content: space-between;
     align-items: center;
     gap: 1.5rem;
-    padding: 0 8px ;
+    padding: 0 8px;
 }
 
-.main{
+.main {
     max-width: 790px;
     width: 100%;
     min-height: 90vh;
@@ -72,16 +77,17 @@ a{
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding: 10px;    
+    padding: 10px;
 }
+
 .foto-perfil {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 2px solid var(--violet); 
-  box-shadow: 0 0 15px rgba(82, 2, 82, 0.801); 
-  animation: zoomIMG 0.8s ease-out forwards;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid var(--violet);
+    box-shadow: 0 0 15px rgba(82, 2, 82, 0.801);
+    animation: zoomIMG 0.8s ease-out forwards;
 }
 
 .foto-perfil img {
@@ -89,33 +95,39 @@ a{
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    
+
 }
+
 @keyframes zoomIMG {
     0% {
         opacity: 0;
         transform: scale(0.8);
     }
+
     100% {
         opacity: 1;
         transform: scale(1);
     }
 }
+
 .bio-perfil {
     max-width: 427px;
     text-align: center;
 }
+
 .bio-perfil h1 {
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 5px;
     padding: 4px;
 }
-.bio-perfil p{
+
+.bio-perfil p {
     color: var(--br);
     font-size: var(--font-size);
     font-weight: 500;
 }
+
 .container-links {
     padding-top: 2rem;
     width: 100%;
@@ -125,6 +137,7 @@ a{
     justify-content: center;
     gap: 20px;
 }
+
 .container-links a {
     border: 1px solid var(--violet);
     text-decoration: none;
@@ -141,17 +154,19 @@ a{
     font-weight: 400;
     transition: all 0.3s ease-in-out;
 }
+
 .container-links a:hover {
     background-color: var(--violet);
     color: var(--black);
     font-weight: 600;
     box-shadow: 0 0 10px rgba(82, 2, 82, 0.801);
 }
+
 .container-links a i {
     font-size: 20px;
 }
 
-footer{
+footer {
     border-top: 1px solid #3333;
     width: 100%;
     max-width: 1020px;
